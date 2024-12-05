@@ -52,11 +52,11 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "どうせ引き裂かれるなら、",
-		   NULL, "If I was going to be ripped apart anyways,", Line_WaitForInput);
+		   NULL, "Eğer zaten parçalara ayrılacaksam,", Line_WaitForInput);
 
 //　身を引き裂かされる方がはるかにマシだと思った。!w4000
 	OutputLine(NULL, "身を引き裂かされる方がはるかにマシだと思った。",
-		   NULL, " having my body ripped apart would've been far better.", Line_Normal);
+		   NULL, " vücudumun parçalara ayrılmasını tercih ederdim.", Line_Normal);
 	ClearMessage();
 
 
@@ -67,7 +67,7 @@ void main()
 //　信じてた。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "信じてた。",
-		   NULL, "I trusted her.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ona güvenmiştim.", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 4, "wa_015", 56, 64 );
 	Wait( 1000 );
@@ -78,7 +78,7 @@ void main()
 //　......いや、信じてる。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…いや、信じてる。",
-		   NULL, "...No, I still trust her.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Hayır, Ona hala güveniyorum.", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 4, "wa_015", 56, 64 );
 	Wait( 1000 );
@@ -89,7 +89,7 @@ void main()
 //　今この瞬間だって、信じてる。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "今この瞬間だって、信じてる。",
-		   NULL, "Even in this very moment, I trust her.", Line_Normal);
+		   NULL, "Şu anda bile, ona güveniyorum.", Line_Normal);
 	ClearMessage();
 
 	PlaySE( 4, "wa_015", 56, 64 );
@@ -102,14 +102,14 @@ void main()
 //　でも......薄々は気付いてる。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "でも…薄々は気付いてる。",
-		   NULL, "But... I'm starting to realize.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ama... fark etmeye başlıyorum.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　信じたいのは、認めたくないだけだからだ。/
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "信じたいのは、認めたくないだけだからだ。",
-		   NULL, "I only wanted to trust her because I refused to accept the truth.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ona güvenmek istiyordum çünkü gerçeği kabul etmeyi reddediyordum.", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 4, "wa_015", 56, 64 );
 	Wait( 1000 );
@@ -120,12 +120,12 @@ void main()
 //　自分に言い聞かせるような、
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "自分に言い聞かせるような、",
-		   NULL, "It was as if I was trying to convince myself,", Line_WaitForInput);
+		   NULL, "Sanki kendimi ikna etmeye çalışıyordum,", Line_WaitForInput);
 
 
 //　そんな涙声が...もうたまらなく馬鹿馬鹿しくて......。
 	OutputLine(NULL, "そんな涙声が…もうたまらなく馬鹿馬鹿しくて…。",
-		   NULL, " in such a silly... sobbing voice...", GetGlobalFlag(GLinemodeSp));
+		   NULL, " öyle aptalca... hıçkırıklı bir sesle...", GetGlobalFlag(GLinemodeSp));
 
 	PlaySE( 4, "wa_015", 56, 64 );
 	Wait( 1000 );
@@ -136,7 +136,7 @@ void main()
 //　さらなる涙が...顔をもっとぐしゃぐしゃにする...。!w3000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "さらなる涙が…顔をもっとぐしゃぐしゃにする…。",
-		   NULL, "And those tears... those tears making a mess of my face...", Line_Normal);
+		   NULL, "Ve o gözyaşları... o gözyaşları yüzümü mahvediyordu...", Line_Normal);
 	ClearMessage();
 //locate 0,6
 
@@ -144,7 +144,7 @@ void main()
 //　機械的に繰り返されていたそれはようやく収まり、とても静かになった。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "機械的に繰り返されていたそれはようやく収まり、とても静かになった。",
-		   NULL, "That mechanical, repetitious sound finally stilled, and everything fell silent.", Line_Normal);
+		   NULL, "O mekanik, tekrarlayan ses sonunda durdu ve her şey sessizliğe gömüldü.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("sora1", "aa", 0, 0, 1300 );
@@ -154,35 +154,35 @@ void main()
 //　ひぐらしの声だけが...いやに騒がしい。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ひぐらしの声だけが…いやに騒がしい。",
-		   NULL, "Only the cry of the cicadas remained, annoyingly loud.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Geriye sadece ağustos böceklerinin sinir bozucu derecede yüksek çığlıkları kalmıştı.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　なのに、!w1500
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "なのに、",
-		   NULL, "And yet...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ama yine de...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　...彼女のそれはまだ聞こえる気がする。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…彼女のそれはまだ聞こえる気がする。",
-		   NULL, "...I felt as if I could still hear her voice.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Sanki hâlâ onun sesini duyuyormuşum gibi hissettim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　...聞こえるはずはない。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…聞こえるはずはない。",
-		   NULL, "...But that's not possible.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Ama bu mümkün değil.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　彼女はもう、言うのをやめているのだから。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "彼女はもう、言うのをやめているのだから。",
-		   NULL, "She is no longer speaking.", Line_Normal);
+		   NULL, "O artık konuşmuyor.", Line_Normal);
 	ClearMessage();
 
 //locate 0,5
@@ -191,14 +191,14 @@ void main()
 //　泣いているのは俺だけだった。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "泣いているのは俺だけだった。",
-		   NULL, "The only one crying is me.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ağlayan tek kişi benim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　彼女は泣きもしなかった。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "彼女は泣きもしなかった。",
-		   NULL, "She never cried.", Line_Normal);
+		   NULL, "O hiç ağlamadı.", Line_Normal);
 	ClearMessage();
 
 //locate 0,2
@@ -207,35 +207,35 @@ void main()
 //　彼女がそれを繰り返し口にしていた時も、表情どころか感情もなかった。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "彼女がそれを繰り返し口にしていた時も、表情どころか感情もなかった。",
-		   NULL, "Even when she repeated those words over and over, she never expressed any emotion, because there were none to show.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O kelimeleri defalarca tekrarladığında bile hiçbir duyguyu ifade etmiyordu, çünkü gösterecek bir şeyi yoktu.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 //　彼女に、俺のために流す涙がないのなら、!w1000俺にだって。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "彼女に、俺のために流す涙がないのなら、",
-		   NULL, "If she had no tears to shed for me,", Line_ContinueAfterTyping);
+		   NULL, "Eğer benim için dökecek gözyaşı yoksa,", Line_ContinueAfterTyping);
 
 	OutputLine(NULL, "俺にだって。",
-		   NULL, " then I...", Line_WaitForInput);
+		   NULL, " o zaman benim de...", Line_WaitForInput);
 
 
 //　...彼女らのために流す涙はいらないはずなのだ。!w4000
 	OutputLine(NULL, "…彼女らのために流す涙はいらないはずなのだ。",
-		   NULL, " shouldn't need to shed any for her.", Line_Normal);
+		   NULL, " onun için dökmeme gerek olmamalı.", Line_Normal);
 	ClearMessage();
 
 
 //　それなのに......痛み、目を潤ませてしまうのは......どうして？!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それなのに…痛み、目を潤ませてしまうのは…どうして？",
-		   NULL, "Then why... this pain, my eyes getting moist... why was this happening?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O zaman neden... bu acı, gözlerimin yaşarması... neden bunlar oluyordu?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　それでも引き裂かれてないと、......信じていたいから。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それでも引き裂かれてないと、…信じていたいから。",
-		   NULL, "I still wanted to believe... I hadn't been split apart.", Line_Normal);
+		   NULL, "Parçalara ayrılmadığıma... hala inanmak istiyordum.", Line_Normal);
 	ClearMessage();
 
 //locate 0,6
