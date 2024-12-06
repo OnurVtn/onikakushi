@@ -47,7 +47,7 @@ void main()
 //　親類の葬儀のために戻った、久しぶりの都会だった＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　親類の葬儀のために戻った、久しぶりの都会だった。",
-		   NULL, "Şehre en son gidişimin üzerinden epey zaman geçmişti. Sadece bir yakınımın cenazesine katılmak için geri dönmüştüm.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Şehre en son gidişimin üzerinden epey zaman geçmişti. Sadece bir yakınımın cenazesine katılmak için geri döndüm.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -166,14 +166,14 @@ void main()
 //　今更ながらちょっと後悔￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　今更ながらちょっと後悔。",
-		   NULL, "Şimdi bunun için biraz pişmanım", Line_Normal);
+		   NULL, "Şimdi bunun için biraz pişmanım.", Line_Normal);
 	ClearMessage();
 
 //locate 3,7
 //　...誰かが、まだ謝り続けている￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…誰かが、まだ謝り続けている。",
-		   NULL, "...Birisi hala özür diliyor.", Line_Normal);
+		   NULL, "...O birisi hala özür diliyor.", Line_Normal);
 	ClearMessage();
 
 //click
@@ -189,7 +189,7 @@ void main()
 //　これだけ謝っているのだから、もう許してやればいいのに＠
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　これだけ謝っているのだから、もう許してやればいいのに。",
-		   NULL, "O kadar özür diledi ki, artık onu affet.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O kadar özür diledi ki, artık onu affetin.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
@@ -278,7 +278,7 @@ void main()
 	ClearMessage();
 
 //「圭一、そろそろ着くぞ＠起きなさい。＠
-	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi's dad</color>", NULL, Line_ContinueAfterTyping); }
+	if (GetGlobalFlag(GADVMode)) { OutputLine("<color=#f5e6d3>圭一の父</color>", NULL, "<color=#f5e6d3>Keiichi'nin babası</color>", NULL, Line_ContinueAfterTyping); }
 	ModPlayVoiceLS(3, 0, "ps3/s19/00/992600001", 256, TRUE);
 	OutputLine(NULL, "「圭一、そろそろ着くぞ。",
 		   NULL, "\"Keiichi, neredeyse vardık.", Line_WaitForInput);
