@@ -446,7 +446,7 @@ void main()
 //　そんな君がはにかむのが、好きだった。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そんな君がはにかむのが、好きだった。",
-		   NULL, "Ne kadar da çekingen davrandığını sevmiştim.", Line_Normal);
+		   NULL, "Çekingen oluşunu sevmiştim.", Line_Normal);
 	ClearMessage();
 
 
