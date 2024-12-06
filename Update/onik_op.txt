@@ -244,14 +244,14 @@ void main()
 //　もう充分だろ？!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "もう充分だろ？",
-		   NULL, "That's enough, right?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Bu kadarı yeterli, değil mi?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　内なる、もうひとりの自分がやさしく語りかける...。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "内なる、もうひとりの自分がやさしく語りかける…。",
-		   NULL, "Inside me, an inner voice whispered gently...", Line_Normal);
+		   NULL, "İçimdeki bir ses usulca fısıldıyordu...", Line_Normal);
 	ClearMessage();
 
 //locate 0,4
@@ -260,21 +260,21 @@ void main()
 //　俺はもう充分に心を痛めたさ。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "俺はもう充分に心を痛めたさ。",
-		   NULL, "My spirit had suffered enough...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ruhum yeterince acı çekmişti...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　...そして何度も、その痛む心を捨てるべきかどうか迷ったんだ。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…そして何度も、その痛む心を捨てるべきかどうか迷ったんだ。",
-		   NULL, "...and countless times I'd wavered over whether I should just throw the battered thing away.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...ve o yıpranmış şeyi atıp atmamak konusunda sayısız kez tereddüt etmiştim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　だけど俺は...頑なに、捨てることを拒んだんじゃないか。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だけど俺は…頑なに、捨てることを拒んだんじゃないか。",
-		   NULL, "Except... I've stubbornly refused to do that, haven't I?", Line_Normal);
+		   NULL, "Ama... bunu yapmayı inatla reddettim, değil mi?", Line_Normal);
 	ClearMessage();
 
 //locate 0,2
@@ -283,21 +283,21 @@ void main()
 //　捨てれば...もっと心が楽になれる...。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "捨てれば…もっと心が楽になれる…。",
-		   NULL, "I'd feel better if I just threw it away.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Atmış olsaydım daha iyi hissederdim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　それを知りながらも、俺は信じることを選んだんじゃないか。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それを知りながらも、俺は信じることを選んだんじゃないか。",
-		   NULL, "Even knowing that, I chose to believe, didn't I?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Bunu bilmeme rağmen inanmayı seçtim, değil mi?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　その辛かった苦労は、きっと俺にしかわからないし、俺にしかねぎらえない。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その辛かった苦労は、きっと俺にしかわからないし、俺にしかねぎらえない。",
-		   NULL, "Only I can understand that painful struggle, and appreciate it.", Line_Normal);
+		   NULL, "O acı dolu mücadeleyi ancak ben anlayabilir ve takdir edebilirim.", Line_Normal);
 	ClearMessage();
 
 
@@ -307,35 +307,35 @@ void main()
 //　なぁ俺。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "なぁ俺。",
-		   NULL, "Hey, me?", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Hey, ben?", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　...俺は充分に頑張った。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…俺は充分に頑張った。",
-		   NULL, "...I've tried more than enough.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Yeterince denedim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　......俺がそれを認めてやる。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…俺がそれを認めてやる。",
-		   NULL, "...I'll acknowledge that much.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Bu kadarını kabul ediyorum.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　だから。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "だから。",
-		   NULL, "So...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Bu yüzden...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　......もう楽になってもいいんじゃないか......？!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…もう楽になってもいいんじゃないか…？",
-		   NULL, "...Isn't it all right to just take the easy way out?", Line_Normal);
+		   NULL, "...Kolay yolu seçmek doğru olmaz mı?", Line_Normal);
 	ClearMessage();
 
 //locate 0,6
@@ -345,14 +345,14 @@ void main()
 //　それに.........捨てるんじゃない。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "それに…捨てるんじゃない。",
-		   NULL, "Besides... I'm not throwing it away.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ayrıca... O şeyi atmayacağım.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　彼女と一緒に、置いていくんだ。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "彼女と一緒に、置いていくんだ。",
-		   NULL, "I'm leaving it behind, with her.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Geride bırakacağım, onun yanında.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -362,7 +362,7 @@ void main()
 //　...花を手向けるように。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…花を手向けるように。",
-		   NULL, "...Like flowers by a grave.", Line_Normal);
+		   NULL, "...Bir mezarın başındaki çiçekler gibi.", Line_Normal);
 	ClearMessage();
 
 //locate 0,3
@@ -371,35 +371,35 @@ void main()
 //　さぁ。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "さぁ。",
-		   NULL, "Now then.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Şimdi.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　......心を落ち着けて...。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…心を落ち着けて…。",
-		   NULL, "...Calm your nerves.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Sinirlerini yatıştır.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　もう右腕が痺れているだろうけど。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "もう右腕が痺れているだろうけど。",
-		   NULL, "Even though you can't feel your right arm.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Sağ kolunu hissedemiyor olsan bile.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n", Line_ContinueAfterTyping); }
 
 
 //　......頑張って振り上げよう。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "…頑張って振り上げよう。",
-		   NULL, "...Just lift it up.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...O şeyi yukarı kaldır.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　ひとつ振る度に忘れるんだ。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ひとつ振る度に忘れるんだ。",
-		   NULL, "And with every swing, forget a little more.", Line_Normal);
+		   NULL, "Ve her savuruşunda, biraz daha unut.", Line_Normal);
 	ClearMessage();
 	DrawScene("black", 1500 );
 
@@ -413,7 +413,7 @@ void main()
 //　親切が、うれしかった。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "親切が、うれしかった。",
-		   NULL, "That kindness made me happy.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O nezaket beni mutlu etmişti.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -424,7 +424,7 @@ void main()
 //　愛らしい笑顔がうれしかった。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "愛らしい笑顔がうれしかった。",
-		   NULL, "That adorable smile brought me joy.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "O sevimli gülümseme bana neşe getirmişti.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -435,7 +435,7 @@ void main()
 //　頭を撫でるのが、好きだった。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "頭を撫でるのが、好きだった。",
-		   NULL, "I liked petting your head.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Başını okşamak hoşuma gitmişti.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -446,7 +446,7 @@ void main()
 //　そんな君がはにかむのが、好きだった。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "そんな君がはにかむのが、好きだった。",
-		   NULL, "I loved how demure you were.", Line_Normal);
+		   NULL, "Ne kadar da çekingen davrandığını sevmiştim.", Line_Normal);
 	ClearMessage();
 
 
@@ -465,32 +465,32 @@ void main()
 //　これで最後だから。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "これで最後だから。",
-		   NULL, "...Because this will be the last time.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "...Ama bu son sefer olacak.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　これを振り下ろせば忘れてしまうのだから。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "これを振り下ろせば忘れてしまうのだから。",
-		   NULL, "Because when I swing this down, I'll forget.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Çünkü bu şeyi aşağı indirdiğimde, unutacağım.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　君に贈る、...............俺からの、!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "君に贈る、…俺からの、",
-		   NULL, "This is... my...", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Bu... benim...", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
 //　最初で最後の!w1000花束。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "最初で最後の",
-		   NULL, "First and last...", Line_WaitForInput);
+		   NULL, "Senin için...", Line_WaitForInput);
 
 
 	OutputLine(NULL, "花束。",
-		   NULL, " bouquet for you.", Line_Normal);
+		   NULL, " ilk ve son buketim.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawScene("black", 3000 );
@@ -503,7 +503,7 @@ void main()
 //　ひょっとすると、...俺は君の事が、!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "ひょっとすると、…俺は君の事が、",
-		   NULL, "Perhaps... I really did...", Line_WaitForInput);
+		   NULL, "Belki de... gerçekten...", Line_WaitForInput);
 
 //　!s150.......................................!s50好きだった。!w3000
 
@@ -515,7 +515,7 @@ void main()
 	SetSpeedOfMessage( FALSE, 0, );
 
 	OutputLine(NULL, "好きだった。",
-		   NULL, "...love you.", Line_Normal);
+		   NULL, "...seni sevdim.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	FadeOutBGM( 4, 1000, TRUE );
