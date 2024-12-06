@@ -52,7 +52,7 @@ void main()
 	ClearMessage();
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "どうせ引き裂かれるなら、",
-		   NULL, "Eğer zaten parçalara ayrılacaksam,", Line_WaitForInput);
+		   NULL, "Eğer zaten parçalara ayrılacak olsaydım,", Line_WaitForInput);
 
 //　身を引き裂かされる方がはるかにマシだと思った。!w4000
 	OutputLine(NULL, "身を引き裂かされる方がはるかにマシだと思った。",
@@ -144,7 +144,7 @@ void main()
 //　機械的に繰り返されていたそれはようやく収まり、とても静かになった。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "機械的に繰り返されていたそれはようやく収まり、とても静かになった。",
-		   NULL, "O mekanik, tekrarlayan ses sonunda durdu ve her şey sessizliğe gömüldü.", Line_Normal);
+		   NULL, "O mekanik, tekrarlayan ses sonunda kesildi ve her şey sessizliğe gömüldü.", Line_Normal);
 	ClearMessage();
 	DisableWindow();
 	DrawSceneWithMask("sora1", "aa", 0, 0, 1300 );
@@ -297,7 +297,7 @@ void main()
 //　その辛かった苦労は、きっと俺にしかわからないし、俺にしかねぎらえない。!w4000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "その辛かった苦労は、きっと俺にしかわからないし、俺にしかねぎらえない。",
-		   NULL, "O acı dolu mücadeleyi ancak ben anlayabilir ve takdir edebilirim.", Line_Normal);
+		   NULL, "O acı dolu mücadeleyi ancak ben anlayabilir ve değerini bilebilirim.", Line_Normal);
 	ClearMessage();
 
 
