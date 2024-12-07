@@ -283,7 +283,7 @@ void main()
 //　捨てれば...もっと心が楽になれる...。!w2000
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "捨てれば…もっと心が楽になれる…。",
-		   NULL, "Atmış olsaydım daha iyi hissederdim.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Atmış olsaydım daha iyi hissedecektim.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
