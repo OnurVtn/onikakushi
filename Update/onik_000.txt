@@ -369,7 +369,7 @@ void main()
 //　うっそうと木々が茂る山道が急に開けるとそこが...￥
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　うっそうと木々が茂る山道が急に開けるとそこが…、",
-		   NULL, "Dağ yolunu kaplamış yoğun ormanın aniden açıldığı yerin ötesinde...", Line_Normal);
+		   NULL, "Dağ yolunu kaplayan yoğun ormanın aniden açıldığı yerin ötesinde...", Line_Normal);
 	ClearMessage();
 
 //setwindow 31,16,22,16,26,26,0,2,20,1,1,#ffffff,0,0,639,479
